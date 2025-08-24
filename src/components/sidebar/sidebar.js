@@ -33,6 +33,13 @@ const Sidebar = ({navBtn, setNavBtn}) => {
                         </li>
 
                         <li className = "nav__item">
+                            <a href = "#skills" className = "nav__link">
+                                <i className = "icon-note"></i>                                                        
+                            </a>
+                            <p className = "nav__desc">Skills</p>
+                        </li>
+
+                        <li className = "nav__item">
                             <a href = "#projects" className = "nav__link">
                                 <i className = "icon-briefcase"></i>                                                        
                             </a>
